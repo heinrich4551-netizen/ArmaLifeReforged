@@ -41,7 +41,7 @@ class RHD_WorldManager: ScriptComponent
 		fia.m_sDisplayName = "FIA";
 		fia.m_sShortName = "FIA";
 		fia.m_iStartingTreasury = 0;
-		fia.m_iMinimumRecruitRank = 3;
+		fia.m_sMinimumRecruitRank = "SERGEANT";
 		fia.m_bPlayerFaction = true;
 		fia.m_bAiFaction = true;
 		m_aFactions.Insert(fia);
